@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuidaTuCompañero</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnH1z4j+6C/1y1X9etv2R1wYp6AAam2rRXNh6d6yYp+XxpuU9A3j3h5iL2O7t0P6fxrPqM5sA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header Fijo -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Cuida Tu Compañero ">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#guias">Guías</a></li>
+                    <li><a href="#consejos">Consejos</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section con Overlay -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay">
+            <div class="container hero-content">
+                <h1>Bienvenido a Cuida Tu Compañero</h1>
+                <p>Tu fuente confiable para el cuidado y bienestar de tus mascotas.</p>
+                <a href="#guias" class="btn-primary">Explora nuestras guías</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guías de Cuidado -->
+    <section id="guias" class="section">
+        <div class="container">
+            <h2>Guías de Cuidado</h2>
+            <div class="cards">
+                <!-- Guía de Perros -->
+                <div class="card">
+                    <img src="images/perrito.webp" alt="Cuidado de Perros">
+                    <div class="card-content">
+                        <h3>Perros</h3>
+                        <p>Consejos sobre alimentación, salud, entrenamiento y más.</p>
+                        <a href="#" class="btn-secondary"><i class="fas fa-chevron-down"></i> Ver Detalles</a>
+                        <div class="accordion-content">
+                            <h4>Alimentación</h4>
+                            <p>Proporciona una dieta balanceada adecuada para la edad, tamaño y nivel de actividad de tu perro. Consulta con un veterinario para elegir el mejor alimento.</p>
+                            
+                            <h4>Higiene</h4>
+                            <p>Baños regulares, cepillado y cuidado de las uñas son esenciales para mantener a tu perro limpio y saludable.</p>
+                            
+                            <h4>Salud</h4>
+                            <p>Vacunaciones al día, desparasitaciones y visitas periódicas al veterinario son fundamentales para prevenir enfermedades.</p>
+                            
+                            <h4>Entrenamiento</h4>
+                            <p>El entrenamiento básico mejora el comportamiento y fortalece el vínculo entre tú y tu mascota. Utiliza refuerzos positivos para mejores resultados.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Guía de Gatos -->
+                <div class="card">
+                    <img src="images/20240806125720_gato_blanco_con_tejido.jpeg" alt="Cuidado de Gatos">
+                    <div class="card-content">
+                        <h3>Gatos</h3>
+                        <p>Guías para mantener a tu gato sano y feliz.</p>
+                        <a href="#" class="btn-secondary"><i class="fas fa-chevron-down"></i> Ver Detalles</a>
+                        <div class="accordion-content">
+                            <h4>Alimentación</h4>
+                            <p>Los gatos requieren una dieta rica en proteínas y baja en carbohidratos. Ofrece alimentos específicos para gatos y evita darle comida de perro.</p>
+                            
+                            <h4>Higiene</h4>
+                            <p>Los gatos son muy limpios por naturaleza, pero es importante mantener limpia su caja de arena y proporcionar cepillados regulares, especialmente en razas de pelo largo.</p>
+                            
+                            <h4>Salud</h4>
+                            <p>Las visitas regulares al veterinario ayudan a detectar problemas de salud tempranamente. Vacunas y desparasitaciones son esenciales.</p>
+                            
+                            <h4>Enriquecimiento Ambiental</h4>
+                            <p>Proporciona juguetes, rascadores y espacios para trepar que estimulen el comportamiento natural de tu gato y prevengan el aburrimiento.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Guía de Aves -->
+                <div class="card">
+                    <img src="images/images.jfif" alt="Cuidado de Aves">
+                    <div class="card-content">
+                        <h3>Aves</h3>
+                        <p>Información sobre el cuidado de diferentes especies de aves.</p>
+                        <a href="#" class="btn-secondary"><i class="fas fa-chevron-down"></i> Ver Detalles</a>
+                        <div class="accordion-content">
+                            <h4>Alimentación</h4>
+                            <p>Las aves requieren una dieta balanceada que incluya semillas, frutas, verduras y pellets específicos para su especie. Asegúrate de proporcionar agua fresca diariamente.</p>
+                            
+                            <h4>Hábitat</h4>
+                            <p>Elige una jaula adecuada al tamaño y comportamiento de la especie. Proporciona perchas, juguetes y espacios para volar o ejercitarse.</p>
+                            
+                            <h4>Salud</h4>
+                            <p>Las aves son susceptibles a enfermedades respiratorias y parasitarias. Mantén la jaula limpia y realiza chequeos regulares con un veterinario especializado.</p>
+                            
+                            <h4>Socialización</h4>
+                            <p>Las aves son animales sociales que necesitan interacción diaria. Dedica tiempo para jugar y comunicarte con tu ave para fomentar un comportamiento saludable.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Puedes agregar más tarjetas para otros animales siguiendo la misma estructura -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Consejos Prácticos -->
+    <section id="consejos" class="section bg-light">
+        <div class="container">
+            <h2>Consejos Prácticos</h2>
+            <div class="tips">
+                <!-- Consejo 1 -->
+                <div class="tip">
+                    <i class="fas fa-paw"></i>
+                    <h3>Cómo Cepillar a tu Gato Correctamente</h3>
+                    <p>Mantener el pelaje de tu gato libre de enredos y saludable es esencial para su bienestar. Aquí te mostramos cómo hacerlo de manera efectiva.</p>
+                    <a href="#" class="btn-secondary expand-btn"><i class="fas fa-chevron-down"></i> Leer Más</a>
+                    <div class="expand-content" style="display: none;">
+                        <h4>Frecuencia de Cepillado</h4>
+                        <p>Cepilla a tu gato al menos dos veces por semana. Razas de pelo largo pueden requerir cepillados diarios para prevenir enredos.</p>
+                        
+                        <h4>Herramientas Adecuadas</h4>
+                        <p>Utiliza un cepillo de cerdas suaves o una herramienta específica para eliminar el pelo muerto sin dañar la piel.</p>
+                        
+                        <h4>Técnica de Cepillado</h4>
+                        <p>Cepilla en la dirección del crecimiento del pelo con movimientos suaves y firmes. Presta atención a áreas propensas a enredos, como el cuello y detrás de las orejas.</p>
+                        
+                        <h4>Beneficios</h4>
+                        <p>Reduce la cantidad de pelo que tu gato ingiere al lamerse, previene la formación de bolas de pelo y fortalece el vínculo entre tú y tu mascota.</p>
+                        
+                        <h4>Consejos Adicionales</h4>
+                        <p>Si tu gato muestra resistencia, realiza sesiones de cepillado cortas y recompénsalo con golosinas para asociar el cepillado con experiencias positivas.</p>
+                    </div>
+                </div>
+                <!-- Consejo 2 -->
+                <div class="tip">
+                    <i class="fas fa-paw"></i>
+                    <h3>Señales de Estrés en Perros</h3>
+                    <p>Reconocer y manejar el estrés en tu perro es crucial para su salud mental y física. Aprende a identificar las señales y brindar el apoyo necesario.</p>
+                    <a href="#" class="btn-secondary expand-btn"><i class="fas fa-chevron-down"></i> Leer Más</a>
+                    <div class="expand-content" style="display: none;">
+                        <h4>Señales Comunes de Estrés</h4>
+                        <p>
+                            - Ladridos excesivos o aullidos.<br>
+                            - Comportamientos destructivos como masticar muebles.<br>
+                            - Cambios en el apetito o hábitos de baño.<br>
+                            - Agitación o temblores.<br>
+                            - Aislamiento o esconderse.
+                        </p>
+                        
+                        <h4>Causas del Estrés</h4>
+                        <p>
+                            - Cambios en el entorno (mudanza, nuevos miembros en la familia).<br>
+                            - Falta de ejercicio o estimulación mental.<br>
+                            - Abandono o separación prolongada.<br>
+                            - Ruido fuerte o situaciones de miedo.
+                        </p>
+                        
+                        <h4>Cómo Ayudar a tu Perro</h4>
+                        <p>
+                            - **Rutina Consistente:** Mantén horarios regulares para comidas, paseos y tiempo de juego.<br>
+                            - **Ejercicio Adecuado:** Asegúrate de que tu perro reciba suficiente ejercicio físico para liberar energía acumulada.<br>
+                            - **Enriquecimiento Mental:** Introduce juguetes interactivos, juegos de inteligencia y entrenamiento de obediencia.<br>
+                            - **Ambiente Seguro:** Crea un espacio tranquilo donde tu perro pueda relajarse sin interrupciones.<br>
+                            - **Contacto y Afecto:** Dedica tiempo para interactuar y mostrar cariño a tu mascota.<br>
+                            - **Consulta Profesional:** Si el estrés persiste, considera hablar con un veterinario o un especialista en comportamiento animal.
+                        </p>
+                    </div>
+                </div>
+                <!-- Consejo 3 -->
+                <div class="tip">
+                    <i class="fas fa-paw"></i>
+                    <h3>Cómo Crear un Espacio de Juego Seguro para tu Mascota</h3>
+                    <p>Un área de juego bien diseñada promueve la salud física y mental de tu mascota. Sigue estos consejos para crear un espacio seguro y estimulante.</p>
+                    <a href="#" class="btn-secondary expand-btn"><i class="fas fa-chevron-down"></i> Leer Más</a>
+                    <div class="expand-content" style="display: none;">
+                        <h4>Selección del Espacio Adecuado</h4>
+                        <p>Elige un área libre de peligros donde tu mascota pueda jugar sin riesgo de accidentes. Puede ser una habitación designada, un patio seguro o una zona delimitada en tu hogar.</p>
+                        
+                        <h4>Equipamiento Esencial</h4>
+                        <p>
+                            - **Juguetes Apropiados:** Incluye una variedad de juguetes que fomenten el ejercicio y la estimulación mental, como pelotas, cuerdas, juguetes interactivos y rascadores.<br>
+                            - **Perchas y Mobiliario:** Para gatos, proporciona rascadores y estructuras para trepar. Para perros, añade plataformas o camas cómodas.<br>
+                            - **Accesorios de Seguridad:** Asegura cables eléctricos, productos tóxicos y objetos pequeños que puedan ser ingeridos estén fuera del alcance.
+                        </p>
+                        
+                        <h4>Mantén el Área Limpia</h4>
+                        <p>Retira desechos y objetos peligrosos regularmente. Limpia los juguetes y asegúrate de que estén en buen estado.</p>
+                        
+                        <h4>Enriquecimiento Ambiental</h4>
+                        <p>
+                            - **Estimulación Visual y Auditiva:** Coloca ventanas con vistas interesantes o introduce sonidos suaves que sean agradables para tu mascota.<br>
+                            - **Variedad de Actividades:** Rotación de juguetes y nuevas actividades para mantener el interés y prevenir el aburrimiento.
+                        </p>
+                        
+                        <h4>Supervisión y Participación</h4>
+                        <p>Interactúa con tu mascota en su espacio de juego para fortalecer el vínculo y monitorear su comportamiento.</p>
+                        
+                        <h4>Adaptación según la Especie y Edad</h4>
+                        <p>Ajústalo según las necesidades específicas de tu mascota, teniendo en cuenta su tamaño, raza y etapa de vida.</p>
+                    </div>
+                </div>
+                <!-- Puedes agregar más consejos siguiendo la misma estructura -->
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <!-- Preguntas Frecuentes (FAQ) -->
+    <section id="faq" class="section">
+        <div class="container">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-list">
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <h3>¿Cómo elegir el alimento adecuado para mi perro?</h3>
+                    <p>Selecciona un alimento balanceado que se ajuste a la edad, tamaño y nivel de actividad de tu perro.</p>
+                </div>
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+                    <h3>¿Con qué frecuencia debo llevar a mi gato al veterinario?</h3>
+                    <p>Se recomienda un chequeo anual, aunque los gatitos y gatos mayores pueden necesitar visitas más frecuentes.</p>
+                </div>
+                <!-- Puedes agregar más preguntas frecuentes siguiendo la misma estructura -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section bg-light">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Tu Mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 CuidaTuCompañero. Todos los derechos reservados.</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <!-- Agrega más enlaces sociales según sea necesario -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript para el menú móvil y acordeones -->
+    <script>
+        // Toggle menú móvil
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        // Cambiar estilo del header al hacer scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Funcionalidad del acordeón en Guías de Cuidado
+        const guideCards = document.querySelectorAll('.card');
+
+        guideCards.forEach(card => {
+            const button = card.querySelector('.btn-secondary');
+            const content = card.querySelector('.accordion-content');
+
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                content.classList.toggle('active');
+
+                // Cambiar icono
+                const icon = button.querySelector('i');
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+
+        // Funcionalidad del acordeón en Consejos Prácticos
+        const expandButtons = document.querySelectorAll('.expand-btn');
+
+        expandButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+
+                if (content.style.display === "none" || content.style.display === "") {
+                    content.style.display = "block";
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                } else {
+                    content.style.display = "none";
+                    icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                }
+            });
+        });
+
+        // Funcionalidad del acordeón en FAQ
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(item => {
+            item.querySelector('h3').addEventListener('click', () => {
+                // Cerrar otros items
+                faqItems.forEach(i => {
+                    if (i !== item) {
+                        i.classList.remove('active');
+                    }
+                });
+                // Toggle el item actual
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
